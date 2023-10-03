@@ -1,0 +1,34 @@
+{"intents": [
+  {"tag": "przywitanie",
+  "patterns": ["czesc", "hej", "dzien dobry", "co tam?", "jak leci?", "siema", "elo"],
+  "responses": ["Czesc!", "Hej!", "W czym moge pomoc?", "Co moge dla ciebie zrobic?"]
+  },
+  {"tag": "pozegnanie",
+  "patterns": ["pa", "dowidzenia", "do zobaczenia"],
+  "responses": ["Do zobaczenia :(", "Do widzenia!"]
+  },
+  {"tag": "wiekm",
+  "patterns": ["ila lat ma maks", "ile maks ma lat", "ile lat ma twoj tworca"],
+  "responses": ["Moj tworca Maks ma 12 lat!", "Maks ma 12 lat"]
+  },
+  {"tag": "imie",
+  "patterns": ["jak sie nazywasz", "jak masz na imie", "kim jestes"],
+  "responses": ["Jestem Albert!", "Mozesz mowic mi Albert!", "Jestem Albert asystent Maksa"]
+  },
+  {"tag": "matematyka",
+  "patterns": ["ile to 2+2", "dwa plus dwa", "ile to dwa plus dwa"],
+  "responses": ["Nie umiem tego rozwiazac"]
+  },
+  {"tag": "wiek",
+  "patterns": ["ile masz lat"],
+  "responses": ["Mam niecaly tydzien", "tydzien"]
+  },
+  {"tag": "czlowiek",
+  "patterns": ["czy jestes czlowiekeim"],
+  "responses": ["Nie, jestem sztuczna inteligencja"]
+  },
+  {"tag": "data",
+  "patterns": ["jaki dzis jest dzien, ktora jest godzina, "],
+  "responses": ["Przepraszam, nie mam dostepu do bierzacych informacji"]
+  }
+]}
